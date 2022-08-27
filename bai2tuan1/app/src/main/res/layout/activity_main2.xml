@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#FFFF00">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/img"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="120dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="Profile"
+                android:textSize="25dp"
+                android:textColor="#000"/>
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="100dp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="3dp"/>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="#00FFFF"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="130dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="240dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/img_4" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="123dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Profile name"
+                android:textSize="28dp"
+                android:textColor="#f8f8ff"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="125 Friend"
+                    android:textSize="25dp"
+                    android:textColor="#f8f8ff"/>
+                <View
+                    android:layout_marginTop="16dp"
+                    android:layout_width="2dp"
+                    android:background="#FFFFFF"
+                    android:layout_height="60dp"/>
+                <TextView
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="250 Followers"
+                    android:textSize="25dp"
+                    android:textColor="#f8f8ff"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="200dp"
+                android:background="@drawable/img_3"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:text="email: levancongquan@gmail.com"
+
+                    android:inputType="textEmailAddress"
+                    android:textColor="#FFFF00"/>
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:ems="10"
+                    android:text="Phone: +84326923662"
+                    android:inputType="phone"
+                    android:textColor="#FFFF00"/>
+
+                <EditText
+                    android:id="@+id/editTextSkype"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:ems="10"
+                    android:text="Skype: quan203"
+                    android:inputType="phone"
+                    android:textColor="#FFFF00"/>
+
+                <EditText
+                    android:id="@+id/editTextWeb"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:ems="10"
+                    android:text="Web: congquan203.com/"
+                    android:inputType="phone"
+                    android:textColor="#FFFF00"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
